@@ -1,0 +1,605 @@
+
+/*pagina web general*/
+body {
+	background: None;
+	background-color: Black;
+	font-family: Verdana;
+}
+/*
+input[type="text"]:focus, input[type="password"]:focus, textarea:focus
+{
+	border: 2px solid #385D8A;
+}
+*/
+#pPWD:focus, #rPWD:focus,  #rPWD2:focus, .buscarmenu:focus, #pUsu:focus, .crtitulo:focus, .ftitulo:focus, .cpais:focus, .rUsu:focus, .rEmail:focus, .rPop:focus, .rCP:focus, .rPais:focus, .bTitulo:focus, .bPais:focus, .name:focus, .cEmail:focus
+{
+	border: 2px solid #385D8A;
+}
+
+a {
+	color: Lime;
+}
+
+/*listas*/
+
+p, ul, ol {
+	margin-top: 0;
+	line-height: 180%;
+}
+
+ul, ol {
+}
+
+hr {
+	color: White;
+}
+
+/*header*/
+
+h1, h2, h3
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+}
+
+h1 {
+	position:absolute;
+	top:0;
+	left:350px;
+	right:5px;
+	height:15px;
+	/*text-align: center;*/
+	font-size: 26px;
+	color: White;
+}
+
+/* Titulo */
+
+hr{
+	color: White;
+}
+
+h2 {
+	text-align: center;
+	font-size: 18px;
+	color: Black;
+}
+
+h3 {
+	font-size: 14px;
+	color: Black;
+	padding-left: 40px;
+}
+
+.cabecera {
+	position:relative;
+	height:120px;
+	background: LightSlateGrey;
+	width: 1250px;
+}
+
+/* Logo */
+
+.logo {
+	padding: 20px 20px 20px 20px;
+	color: #000000;
+}
+
+.pidentif label {
+	font-size: 12px;
+	color: White;
+}
+
+.campoPWD label {
+	font-size: 12px;
+	color: White;
+}
+
+/*login*/
+
+.login {
+	position:absolute;
+	top:10px;
+	left:75%;
+	right:15px;
+	width: 300px;
+	height:40px;
+	visibility: visible;
+}
+
+.login a, .loged a {
+	color: Lime;
+}
+
+.login label, .loged label  {
+	color:White;
+}
+
+.loged {
+	position:absolute;
+	top:15px;
+	left:75%;
+	right:15px;
+	/*margin: 20px 30px 30px 20px;*/
+	width: 300px;
+	height:20px;
+	visibility: hidden;
+}
+
+.imgloged {
+	position:absolute;
+	top:10px;
+	left:45px;
+	right:15px;
+	height:70px;
+	width: 70px;
+	float: left;
+	text-align: left;
+}
+
+.flogin {
+	height:95px
+}
+
+.fmenu{
+	height:18px;
+}
+
+.pidentif {
+	position:absolute;
+	top:2px;
+	left:65px;
+	right:5px;
+	height:15px;
+	padding-top: 5px;
+	text-align: center;
+}
+
+
+.userloged{
+	float: left;
+		text-align: left;
+	position:absolute;
+		top:15px;
+		left:100px;
+		right:5px;
+	height:50px;
+	color:White;
+}
+
+.logedUser {
+	float: left;
+		text-align: left;
+	position:absolute;
+		top:15px;
+		left:0;
+		right:5px;
+	color:White;
+}
+
+.exitloged{
+	float: right;
+		text-align: right;
+	position:absolute;
+		top:80px;
+		left:15px;
+		right:25px;
+	height:30px;
+	color: Lime;
+}
+.horaent
+{
+	position:absolute;
+		top:45px;
+		left:95px;
+		right:0;
+		color:White;
+}
+
+.campoPWD{
+	position:absolute;
+	top:30px;
+	left:40px;
+	right:5px;
+	height:30px;
+	padding-top: 5px;
+	text-align: center;
+}
+
+.validarlog {
+	position:absolute;
+	top:75px;
+	left:50px;
+	right:20px;
+	height:10px;
+}
+
+.botonlog {
+	position:absolute;
+	top:10px;
+	left:15px;
+	right:55px;
+	height:30px;
+	float: left;
+	text-align: left;
+}
+.linklog {
+	position:absolute;
+	top:10px;
+	left:75px;
+	color: Lime;
+	right:0;
+	float: right;
+	text-align: right;
+}
+.recuerdam
+{
+	position:absolute;
+		top:60px;
+		left:75px;
+		right:0;
+	color: White;
+}
+/* Menu */
+
+.menu {
+	position:absolute;
+	top:60px;
+	left:250px;
+	right:20px;
+	height:35px;
+	/*overflow: hidden;*/
+	width: 620px;
+	/*padding: 15px 0px;*/
+	/*margin: 0px auto 30px auto;*/
+	background: SlateGrey;
+	color: White;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	
+
+}
+
+.buscarmenu {
+	position:absolute;
+	top:5px;
+	right:15px;
+	background: DarkGray;
+	color: White;
+}
+
+.menu ul {
+	float: left;
+		text-align: left;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px;
+	list-style: none;
+	line-height: normal;
+	/*text-align: center;*/
+}
+
+.menu li {
+	border-right: 1px solid White;
+	display: inline-block;
+}
+
+.menu a {
+	border: none;
+	color: White;
+	display: block;
+	font-size: 17px;
+	/*font-weight:400;*/
+	padding: 0px 40px 0px 40px;
+	text-decoration: none;
+	text-align: center;	
+}
+
+/************asdasd**********/
+.menu a:hover, .menu .current_page_item a:hover {
+	font-weight: normal;
+}
+
+.menu .current_page_item a {
+	color: White;
+}
+
+.menu .last {
+	border-right: none;
+	float: right;
+		text-align: right;
+}
+/********************/
+
+/***********Errores**********/
+
+.bResultados
+{
+	background: White;
+	visibility: hidden;
+}
+.bResultados li
+{
+	float: left;
+}
+
+.captchaImg
+{
+	height: 45px;
+	width: 200px;
+}
+
+.idioma
+{
+	color: White;
+	padding-left: 10px;
+}
+.icon
+{
+	height: 15px;
+	width: 25px;
+}
+
+.mainCompose
+{
+	position: relative;  
+		top: 0; 
+		left: 5px;
+	/*valor de la capa*/
+	z-index:10;
+	display: none;
+}
+
+.calloutUp 
+{ 
+	position: relative;  
+		top: 0; 
+		left: 5px;
+	border-bottom: 12px solid Red; 
+	border-left: 12px dotted transparent; 
+	border-right: 12px dotted transparent;
+	height: 0; 
+	width: 0;
+	z-index:11;	
+}
+ 
+.calloutUp2 
+{ 
+	position: relative;  
+		top: 0;
+		left: 0;
+	border-style:solid;
+	border-width:5px;
+	border-color:Red green;
+	background: Thistle; 
+	/*height: 100px;*/ 
+	width: 300px; 
+	z-index:11;
+}
+
+/*barrita superior*/
+
+.hrSuperior {
+	position:absolute;
+	top:50px;
+}
+
+/* formato imagen estandar*/
+.lnkoutD, .lnkoutA, .lnkcreAlbn, .lnkacepto, .lnkalbn, .lnkbaja, .lnkcontacto
+{
+	color: Blue;
+}
+
+.lnkacepto{
+	float: right;
+	padding-right: 62%;
+	/*color: Blue;*/
+}
+
+.fecha {
+	float: left;
+	text-align: left;
+}
+.dtsDia, .dtsMes, .dtsAnio
+{
+	float: right;
+	text-align: right;
+}
+
+.imagen {
+	width: 100px;
+	height: 100px;
+}
+
+.icono {
+	width: 50px;
+	height: 50px;
+	float: left;
+}
+
+.imagenfoto, .subirfoto , .fotodeUsuario, .dlnkdes, .dimagen, .formfotoreguistro, .lnkcontac, .lnkinicio
+{
+	padding-left: 20px;
+}
+
+.lnkbaja
+{
+	float: left;
+	padding-left: 40px;
+}
+
+.lnkcontacto
+{
+	float: right;
+	text-align: right;
+	padding-right: 950px;
+}
+
+.labelfotos {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 23px;
+	font-weight: bold;
+	color: White;
+	padding-left: 20px;
+}
+
+.fotos5 {
+	color: White;
+	visibility: visible;
+}
+
+.hFoto1, .hFoto2, .hFoto3, .hFoto4, .hFoto5
+{
+	color: Black;
+	width: 620px;
+	background: White;
+}
+
+.image {
+	float: left;
+	text-align: left;
+}
+
+.atributos {
+	float: right;
+	text-align: right;
+	padding-right: 450px;
+}
+
+.CTitulo, .CFecha, .CPais{
+	padding-left: 20px;
+}
+
+.boton {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+.registroboton {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+
+/*fotmateo datos en general*/
+.datos {
+	font-size: 14px;
+	padding-left: 20px;
+}
+.datos a {
+	color: Blue;
+}
+
+/* Page */
+
+.pageBusqueda, .pageDetalle, .pageHome , .pageRegistro , .pageResultados, .pageAlbum , .pageAviso, .pageFoto, .pageCrearalbum, .pageUsuario, .pageContacto
+{
+	width: 1180px;
+	margin: 30px 20px 20px 20px;
+	padding: 30px 30px;
+	background: #FFFFFF;
+	border: 1px solid #D4D4D4;
+	visibility: visible;
+}
+/*
+.pageBusqueda 
+{
+	height: 350px;
+}
+.pageDetalle 
+{
+	height: 1700px;
+}
+.pageHome
+{
+	height: 250px;
+}
+.pageRegistro 
+{
+	height: 800px;
+}
+.pageResultados
+{
+	height: 400px;
+}
+.pageAviso
+{
+	height: 250px;
+}
+.pageFoto
+{
+	height: 800px;
+}
+.pageCrearalbum 
+{
+	height: 250px;
+}
+.pageUsuario
+{
+	height: 700px;
+}
+.pageContacto
+{
+	height: 400px;
+}
+*/
+/*Footer*/
+
+.footer {
+	font-size: 14px;
+	color: White;
+	width: 1250px;
+	height: 20px;
+}
+
+span.empresa {
+	color: White;
+	float: left;
+	text-align: left;
+	padding-left: 20px;
+}
+
+span.contacto {
+	color: White;
+	float: right;
+	text-align: right;
+	padding-right: 40px;
+}
+
+.url {
+	color: White;
+	text-align: center;
+	visibility: hidden;
+}
+
+
+.estilos {
+	color: White;
+	text-align: center;
+	visibility: visible;
+}
+
+/*****redimension******/
+/**
+.resize2 {  
+  border: 3px double #333;  
+  float: left;  
+  height: 12em;  
+  margin: .2em 1em 1em 0;  
+  overflow: hidden;  
+  width: 12em;  
+}  
+  
+.resize2 img {  
+  margin: -220px 0 0 -210px;  
+  padding: 6em 0 0 6em;  
+}  
+
+.imagenenc {
+	visibility: visible;
+	width: 50px;
+	height: 50px;
+}
+**/

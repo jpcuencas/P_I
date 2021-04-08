@@ -1,0 +1,1 @@
+<?phpinclude_once("phpoo/BDclassconsulta.php");$conexion= new bdconsulta;$s="localhost";$u="Publico";$p="";$e="pibd";$res="";$conexion->conectarBD($s,$u,$p,$e);if($conexion->getError()){	if(isset($_SESSION))	{		$_SESSION["ERRORBD"]=$conexion->getMsgError();	}	header("Location: pg/Aviso.php?e=23");}else{	header("Location: Resultados.php");}?>

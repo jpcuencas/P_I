@@ -1,0 +1,15 @@
+
+.crtitulo:focus
+{
+	border: 2px solid #385D8A;
+}
+
+/*fotmateo datos en general*/
+.datos {
+	padding-left: 50px;
+}
+
+.pageCrearalbum
+{
+	height: 250px;
+}

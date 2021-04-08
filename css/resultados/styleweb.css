@@ -1,0 +1,90 @@
+/*
+ Estilo css predefinido resultado
+*/
+
+
+.rtfoto
+{
+	float: left;
+		text-align: left;
+}
+.elementolii
+{
+	position: relative;  
+		top: 10px; 
+}
+.element
+{
+
+	float: left;
+		text-align: left;
+}
+
+#foticos1
+{
+	list-style:none;
+}
+
+.fecha
+{
+	float: left;
+		text-align: left;
+}
+.dtsDia, .dtsMes, .dtsAnio
+{
+	float: left;
+		text-align: left;
+}
+
+
+.resenlaces
+{
+	float: right;
+		text-align: right;
+		margin-left: 25px;
+	padding-left: 10px;
+}
+
+.rtdatos1
+{
+	float: right;
+	margin-right: 25px;
+}
+/*
+.lnkoutD
+{
+	float: letf;
+		text-align: letf;
+		margin-left: 525px;
+
+}
+
+.lnkoutA
+{
+	float: letf;
+		text-align: letf; 
+		margin-left: 525px;
+
+}
+*/
+.dtstitfch
+{
+	float: left;
+		text-align: left;
+		margin-left: 125px;
+	padding-left: 10px;
+}
+
+.dtsatrpas
+{
+	float: right;
+		text-align: right;
+		margin-right: 125px;
+	padding-left: 10px;
+
+}
+
+.pageResultados
+{
+	height: 400px;
+}

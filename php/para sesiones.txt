@@ -1,0 +1,7 @@
+﻿<?php
+	include_once("../phps/includes/web/session.inc.php");
+?>
+
+
+---------
+al comienzo del fichero .php

@@ -1,0 +1,42 @@
+.avisoms{
+	font-size: 12px; 
+	font-weight: bold;
+	float: right;
+		padding-right: 900px;
+}
+
+/*fotmateo datos en general*/
+.datos {
+	padding-left: 50px;
+}
+
+
+.mensaje {
+	padding-top: 20px;
+	padding-left: 20px;
+}
+
+
+.lnkcontac
+{
+	color: Blue;
+	float: left;
+		padding-left: 40px;
+}
+
+.lnkinicio
+{
+	color: Blue;
+	float: right;
+		text-align: right;
+		padding-right: 950px;
+}
+
+.pageAviso
+{
+	height: 250px;
+}
+.pageAviso a
+{
+	color: Blue;
+}

@@ -1,0 +1,60 @@
+cosas pendientes: --buscar php-info php.ini configuracion presentacion PI
+
+---bifurcar version cuando termine parte cliente ( antes testearlo todo )
+
+css comprobar y modularizar los estilos y comprobarlos
+
+ array.sort()
+--FUNCION QUE TE ORDENA UNA LISTA EN HTML
+---Exportar base de datos de access a MySQL (crear programa aparte pasar)
+
+------------COMPROBAR PAGina extender DE FORMA RELATIVA EN FUNCION ERRORES MENSAJE
+
+REGISTRO MX validar email --- comprobar si existe en web con marcadores
+Y COMPROBAR SI REGISTRO EXISTE
+BUSCAR EL REGISTRO MX DE UN SERVIDOR QUE TE LO DEVUELVA BUSCAR ATRAVES DEL DOMINIO CON JAVASCRIPT
+
+- incorporar sellos homologacion html5 del w3c y aluno mas que se ocurra
+
+--mirar aptana para javascript debug atraves del navegador
+
+---instalar apache mysql y php cada uno por separado (consejo)...
+
+-LO DE LA BUSQUEDA (MEGSORT)BUSCAR E IMPLEMENTAR 
+
+-----------------------------------------------------------------------------------------------------
+------------PARA ENCRIPTAR GUARDAR TODO EN LA MISMA ENCRIPTACION Y COMARAR DESE AHI------------------
+-----------------------------------------------------------------------------------------------------
+----------------------
+--al terminar la web
+----------------------
+-comprobar traduccion esp/en
+
+-Comprobar los estilos css alternativos
+
+-Rediseño para el diseño adaptativo
+----plantear diseño plantilla
+--------------------------------------------------------------------------------------------
+-------mirar cosas de diseño mini y mediano especificas de cada web para modificar----------
+--------------------------------------------------------------------------------------------
+-----------------------------------------------
+practica php
+-------------------------------------------------
+--instalar xampp (herramientas aparte apache/mysql/php)
+--composicion de la pagina cabecera pie logo...
+----paginas nuevas:
+--usuario registrado
+--crear album
+--registro nuevo usuario
+---------------------------------------------------
+---en php maquillar error 404
+validar en vez de el boton on click validar con "onchange"
+
+realizar la ordenacion de fotos en la busqueda en una lista
+
+- Validar el Dom en ejecucion de la pagina creada en idiomas ingles y español
+
+VALIDAR LA PRACTICA html y css !!!!!
+sobre todo antes de entregar
+--------------------pendiente:---------------------------------
+COMPROBAR COMO OBTENER LA URL COMPLETA DE UNA PAGINA document.url

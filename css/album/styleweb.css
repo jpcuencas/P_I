@@ -1,0 +1,18 @@
+/*
+ Estilo css predefinido album
+*/
+
+.imagenfoto, .subirfoto, .fotodeUsuario, .dlnkdes, .dimagen, .formfotoreguistro, .rtfoto
+{
+	padding-left: 20px;
+}
+
+/*fotmateo datos en general*/
+.datos {
+	padding-left: 50px;
+}
+
+.pageAlbum 
+{
+	height: 300px;
+}

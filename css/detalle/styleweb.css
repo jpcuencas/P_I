@@ -1,0 +1,19 @@
+/*
+ Estilo css predefinido detalle
+*/
+/*pagina web general*/
+
+.dlnkdes, .dimagen
+{
+	padding-left: 20px;
+}
+
+/*fotmateo datos en general*/
+.datos {
+	padding-left: 50px;
+}
+
+.pageDetalle
+{
+	height: 1700px;/*cambiar*/
+}

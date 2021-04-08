@@ -1,0 +1,29 @@
+/*usuario*/
+.fotodeUsuario
+{
+	padding-left: 20px;
+}
+
+/*fotmateo datos en general*/
+.datos {
+	padding-left: 50px;
+}
+
+.lnkbaja
+{
+	float: left;
+		padding-left: 40px;
+}
+
+.lnkcontacto
+{
+	float: right;
+		text-align: right;
+		padding-right: 900px;
+}
+
+
+.pageUsuario
+{
+	height: 700px;
+}

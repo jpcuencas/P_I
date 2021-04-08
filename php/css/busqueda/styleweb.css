@@ -1,0 +1,42 @@
+/*
+ Estilo css predefinido Busqueda
+*/
+/*pagina web general*/
+
+.bTitulo:focus, .bPais:focus
+{
+	border: 2px solid #385D8A;
+}
+
+.orden
+{
+	visibility: hidden;
+}
+.bordenarr
+{
+	visibility: hidden;
+}
+.bResultados
+{
+	background: White;
+	height: 120px;
+	visibility: hidden;
+}
+.bResultados li
+{
+	float: left;
+}
+
+/*fotmateo datos en general*/
+.datos {
+	padding-left: 50px;
+}
+
+.CTitulo, .CFecha, .CPais{
+	padding-left: 20px;
+}
+
+.pageBusqueda
+{
+	height: 320px;
+}

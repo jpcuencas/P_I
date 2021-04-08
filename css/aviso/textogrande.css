@@ -1,0 +1,27 @@
+.avisoms{
+	font-size: 22px; 
+	font-weight: bold;
+	float: right;
+	padding-right: 900px;
+}
+.mensaje {
+	padding-top: 20px;
+	padding-left: 20px;
+}
+
+.lnkcontac
+{
+	float: left;
+		padding-left: 40px;
+}
+
+.lnkinicio
+{
+	float: right;
+		text-align: right;
+		padding-right: 950px;
+}
+.pageAviso
+{
+	height: 350px;
+}

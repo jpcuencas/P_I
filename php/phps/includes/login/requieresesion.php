@@ -1,0 +1,1 @@
+<?phpif((!isset($_SESSION["LOGIN"]))&&($_SESSION["LOGIN"]!="OK")){	session_destroy();	header("Location: pg/aviso.php?e=21");	header("Location: aviso.php?e=21");}?>

@@ -1,0 +1,174 @@
+/*activar estilo mini*/
+.display-mini
+{
+	display: inherit !important;
+}
+
+/*cosas que se establecen en el estilo*/
+body
+{
+	font-family: Arial;
+}
+
+h1 
+{
+	font-size: 26px;
+	position:absolute;
+		top:0;
+		left:30%;
+		right:40%;
+	/*text-align: center;*/
+}
+
+select.display-mini
+{
+	font-size: 1.2em;
+	width: 100%;
+	max-width: 250px;
+}
+.cabecera {
+	background: LightSlateGrey;
+	position:relative;
+	height:130px;
+	width: 480px;
+}
+.page, .pagenuevousuario, .pagemenuregistrado, .pageBusqueda, .pageDetalle, .pageHome, .pageRegistro, .pageResultados, .pageAlbum, .pageAviso, .pageFoto, .pageCrearalbum, .pageUsuario, .pageContacto
+{
+	float: right;
+		max-width: 480px;
+	position:relative;
+		top:80px;
+		left:20px;
+		background: #FFFFFF;
+	border: 1px solid #D4D4D4;
+	width: 20%;
+	visibility: visible;
+}
+.login
+{
+	float: left;
+		position:absolute;
+		top:130px;
+		left:5px;
+		right:75%;
+		margin-right:75%;
+		background: LightSlateGrey;
+	height:60px;
+	width: 250px;	
+	visibility: visible;
+}
+.pidentif {
+	position:absolute;
+		top:2px;
+		left:25px;
+		right:0;
+	height:15px;
+	padding-top: 5px;
+	text-align: center;
+}
+.campoPWD{
+	position:absolute;
+		top:30px;
+		left:5px;
+		right:0;
+	height:30px;
+	padding-top: 5px;
+	text-align: center;
+}
+.validarlog {
+	position:absolute;
+		top:75px;
+		left:50px;
+		right:20px;
+	height:10px;
+}
+
+.botonlog {
+	float: left;
+		text-align: left;
+	position:absolute;
+		top:10px;
+		left:5px;
+		right:55px;
+	height:30px;
+}
+
+.linklog {
+	float: right;
+		text-align: right;
+	position:absolute;
+		top:10px;
+		left:55px;
+		right:0;
+	
+}
+.recuerdam
+{
+	position:absolute;
+		top:60px;
+		left:75px;
+		right:0;
+}
+.loged
+{
+
+	float: left;
+		position:relative;
+		top:30px;
+		left:5px;
+		right:75%;
+		margin-right:75%;
+		background: LightSlateGrey;
+	height:60px;
+	width: 300px;	
+	visibility: hidden;
+	/*max-width: 300px;*/
+}
+.flogin
+{
+background: LightSlateGrey;
+}
+.idioma
+{
+	/*background: LightSkyBlue;*/
+	position:relative;
+		top:65px;
+		left:5px;
+		right:75%;
+	padding-left: 10px;
+}
+.menuminiup
+{
+	float: right;
+	background: LightSlateGrey;
+	position:absolute;
+		top:135px;
+		left:57%;
+		right:5px;
+	height:40px;
+	max-width: 250px;
+}
+.buscarmenumini
+{
+	background: DarkGray;
+		color: #FFFFFF;
+}
+.menuminidown
+{
+width: 100%;
+	position:relative;
+		top:0;
+	max-width: 300px;
+}
+.footer {
+	position:relative;
+		top:50px;
+	height: 20px;
+	width: 480px;
+}
+
+span.contacto {
+	float: right;
+		text-align: right;
+		padding-right: 40px;
+}

@@ -1,0 +1,14 @@
+class bdacesso
+
+function consultardatos($campos,$tabla,$donde,$agrupado,$ordenado,$asc)
+
+function insertardatos($tabla,$valores)
+
+function actualizardatos($tabla,$columnas,$donde)
+
+function borrardatos($tabla,$donde)
+
+function getResultado()
+
+$conexion= new bdacesso;
+$conexion= new bdconsulta;

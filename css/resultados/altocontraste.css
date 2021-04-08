@@ -1,0 +1,33 @@
+/*
+ Estilo css predefinido resultado
+*/
+
+
+.rtfoto
+{
+	padding-left: 20px;
+}
+
+/*fotmateo datos en general*/
+.datos {
+	padding-left: 50px;
+}
+
+
+
+.fecha
+{
+	float: left;
+		text-align: left;
+}
+.dtsDia, .dtsMes, .dtsAnio
+{
+	float: right;
+		text-align: right;
+}
+
+
+.pageResultados
+{
+	height: 400px;
+}

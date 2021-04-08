@@ -1,0 +1,15 @@
+ .ftitulo:focus, .cpais:focus
+{
+	border: 2px solid #385D8A;
+}
+
+.boton {
+	margin-left: auto;
+	margin-right: auto;
+		text-align: center;
+}
+
+.pageFoto
+{
+	height: 800px;
+}

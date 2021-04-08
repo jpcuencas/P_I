@@ -1,0 +1,538 @@
+/*
+
+*/
+/*pagina web general*/
+body {
+	background: #EFEFEF url(fondo.jpg) repeat;
+	color: #000000;
+	margin: 0;
+	padding: 0;
+	font-family: 'Arvo', serif;
+	font-size: 19px;
+}
+/*
+input[type="text"]:focus, input[type="password"]:focus, textarea:focus
+{
+	border: 2px solid #385D8A;
+}
+
+input 
+{
+	color: Grey;
+}
+*/
+#pPWD:focus, #rPWD:focus,  #rPWD2:focus, .buscarmenu:focus, #pUsu:focus, .crtitulo:focus, .ftitulo:focus, .cpais:focus, .rUsu:focus, .rEmail:focus, .rPop:focus, .rCP:focus, .rPais:focus, .bTitulo:focus, .bPais:focus, .name:focus, .cEmail:focus
+{
+	border: 2px solid #385D8A;
+}
+Body input, Body label, Body textarea
+{
+	font-size: 20px;
+}
+
+#pUsu, .crtitulo, .ftitulo, .cpais, .rUsu, .rEmail, .rPop, .rCP, .rPais, .bTitulo, .bPais
+{
+	color: Grey;
+}
+
+.idioma
+{
+	padding-left: 10px;
+}
+.icon
+{
+	height: 15px;
+	width: 25px;
+}
+
+.mainCompose
+{
+	position: relative;  
+		top: 0; 
+		left: 5px;
+	/*valor de la capa*/
+	z-index:10;
+	display: none;
+}
+
+.calloutUp 
+{ 
+	position: relative;  
+		top: 0; 
+		left: 5px;
+	border-bottom: 12px solid Red; 
+	border-left: 12px dotted transparent; 
+	border-right: 12px dotted transparent;
+	height: 0; 
+	width: 0;
+	z-index:11;	
+}
+ 
+.calloutUp2 
+{ 
+	position: relative;  
+		top: 0;
+		left: 0;
+	border-style:solid;
+	border-width:5px;
+	border-color:Red green;
+	background: Thistle; 
+	/*height: 100px;*/ 
+	width: 300px; 
+	z-index:11;
+}
+
+/*listas*/
+
+p, ul, ol {
+	margin-top: 0;
+	line-height: 180%;
+}
+
+/*header*/
+
+h1, h2, h3
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+}
+
+h1 {
+	position:absolute;
+	top:10px;
+	left:300px;
+	right:5px;
+	height:15px;
+	/*text-align: center;*/
+	font-size: 35px;
+}
+
+/* Titulo */
+
+h2 {
+	text-align: center;
+	font-size: 26px;
+}
+
+h3 {
+	font-size: 22px;
+	padding-left: 40px;
+}
+
+.cabecera {
+	position:relative;
+	height:150px;
+	background: LightSkyBlue;
+	width: 1300px;
+}
+
+/* Logo */
+
+.logo {
+	color: #000000;
+	padding: 20px 20px 20px 20px;
+}
+
+/*login*/
+
+.login {
+	position:absolute;
+		top:10px;
+		left:75%;
+		right:15px;
+	height:40px;
+	width: 300px;
+	visibility: visible;
+}
+
+.loged {
+	position:absolute;
+		top:15px;
+		left:75%;
+		right:15px;
+	/*margin: 20px 30px 30px 20px;*/
+	height:20px;
+	width: 300px;
+	visibility: hidden;
+}
+
+.imgloged {
+	float: left;
+		text-align: left;
+	position:absolute;
+		top:10px;
+		left:45px;
+		right:15px;
+	height:70px;
+	width: 70px;
+}
+
+.flogin {
+	height: 104px;
+	width: 295px;
+}
+
+.fmenu{
+	height: 20px;
+	width: 700px;
+}
+.pidentif {
+	padding: 5px 5px 5px 5px;
+	height: 90px;
+	width: 90px;
+}
+.pidentif label {
+	float: right;
+		text-align: left;
+		margin-right: 60px;
+	position: absolute;
+		top: 5px;
+		left: 5px;
+		right: 45px;
+	height: 20px;
+	width: 90px;	
+}
+.pidentif input{
+	float: left;
+		text-align: right;
+		margin-left: 60px;
+	position: absolute;
+		top: 5px;
+		left: 25px;
+		right: 5px;
+	height: 20px;
+	width: 150px;
+}
+
+.userloged{
+	float: left;
+	text-align: left;
+	position: absolute;
+		top: 25px;
+		left: 120px;
+		right: 5px;
+	height: 30px;
+}
+
+.logedUser {
+	float: left;
+		text-align: left;
+	position: absolute;
+		top: 15px;
+		left: 20px;
+		right: 5px;
+
+}
+
+.exitloged{
+	float: right;
+		text-align: right;
+	position: absolute;
+		top: 60px;
+		left: 15px;
+		right: 25px;
+	height: 30px;
+}
+.horaent
+{
+	position:absolute;
+		top:45px;
+		left:95px;
+		right:0;
+}
+.campoPWD{
+	height:90px;
+	width: 90px;
+}
+.campoPWD label
+{
+	float: right;
+		text-align: left;
+		margin-right: 60px;
+	position:absolute;
+		top:5px;
+		left:5px;
+		right:45px;
+	height:20px;
+	width: 90px;
+}
+
+.campoPWD input
+{
+	float: left;
+		text-align: right;
+		margin-left: 80px;
+	position:absolute;
+		top:5px;
+		left:25px;
+		right:15px;
+	height:20px;
+	width: 150px;
+}
+
+.validarlog {
+	position:absolute;
+		top:75px;
+		left:50px;
+		right:20px;
+	height:40px;
+	width: 259px;
+}
+
+.botonlog {
+	position:absolute;
+		top:15px;
+		left:10px;
+		right:5px;
+	height:30px;
+}
+.linklog {
+	position:absolute;
+		top:17px;
+		left:60px;
+		right:5px;
+}
+.recuerdam
+{
+	position:absolute;
+		top:60px;
+		left:75px;
+		right:0;
+}
+/* Menu */
+
+.menu {
+	background: DeepSkyBlue;
+	color: #FFFFFF;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	font-weight: bold;
+	position:absolute;
+		top:75px;
+		left:250px;
+		right:20px;
+	height:35px;
+	width: 720px;
+	/*margin: 0px auto 30px auto;*/
+	/*padding: 15px 0px;*/
+	/*overflow: hidden;*/
+}
+
+.buscarmenu {
+	background: DeepSkyBlue;
+		color: #FFFFFF;
+	position:relative;
+		top:0;
+		right:5px;
+	
+	/*text-color: ;*/
+}
+
+.menu ul {
+	float: left;
+		text-align: left;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px;
+	list-style: none;
+	line-height: normal;
+	/*text-align: center;*/
+}
+
+.menu li {
+	border-right: 1px solid #FFFFFF;
+	display: inline-block;
+}
+
+.menu a {
+	border: none;
+	color: #FFFFFF;
+	display: block;
+	font-size: 20px;
+	/*font-weight:400;*/
+	padding: 0px 40px 0px 40px;
+	text-decoration: none;
+	text-align: center;	
+}
+
+/************asdasd**********/
+.menu a:hover, .menu .current_page_item a:hover {
+	font-weight: normal;
+}
+
+.menu .current_page_item a {
+	color: #FFFFFF;
+}
+
+.menu .last {
+	border-right: none;
+	float: right;
+		text-align: right;
+}
+/********************/
+
+/*barrita superior*/
+
+.hrSuperior {
+	position:absolute;
+		top:75px;
+}
+
+
+
+/* formato imagen estandar*/
+
+.imagen {
+	width: 200px;
+	height: 200px;
+}
+.icono {
+	float: left;
+	width: 50px;
+	height: 50px;
+}
+
+
+
+.imagenfoto, .subirfoto, .fotodeUsuario, .dlnkdes, .dimagen ,.formfotoreguistro
+{
+	padding-left: 20px;
+}
+
+/*fotmateo datos en general*/
+.datos {
+	padding-left: 20px;
+}
+
+
+
+
+/*
+.hFoto1 {
+	width: 620px;
+	background: White;
+}
+
+.hFoto2 {
+	width: 620px;
+	background: White;
+}
+
+.hFoto3 {
+	width: 620px;
+	background: White;
+}
+
+.hFoto4 {
+	width: 620px;
+	background: White;
+}
+
+.hFoto5 {
+	width: 620px;
+	background: White;
+}
+*/
+.image {
+	float: left;
+		text-align: left;
+}
+
+
+.boton, .registroboton  
+{
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+
+
+
+
+.fecha {
+	float: left;
+		text-align: left;
+}
+.dtsDia, .dtsMes , .dtsAnio
+{
+	float: right;
+		text-align: right;
+}
+
+/* Page */
+
+.page, .pagenuevousuario, .pagemenuregistrado, .pageBusqueda, .pageDetalle, .pageHome, .pageRegistro, .pageResultados, .pageAlbum, .pageAviso, .pageFoto, .pageCrearalbum, .pageUsuario, .pageContacto
+{
+	background: #FFFFFF;
+	border: 1px solid #D4D4D4;
+	margin: 45px 20px 20px 20px;
+	padding: 30px 30px;
+	width: 1180px;	
+	visibility: visible;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Footer*/
+
+.footer {
+	height: 20px;
+	width: 1250px;
+}
+
+span.empresa {
+	float: left;
+		text-align: left;
+		padding-left: 20px;
+}
+
+span.contacto {
+	float: right;
+		text-align: right;
+		padding-right: 40px;
+}
+
+.url {
+	font-size: 20px;
+	text-align: center;
+	visibility: hidden;
+}
+
+.estilos {
+	font-size: 20px;
+	text-align: center;
+	visibility: visible;
+}
+
+/*****redimension******/
+/**
+.resize2 {  
+  border: 3px double #333;  
+  float: left;  
+  height: 12em;  
+  margin: .2em 1em 1em 0;  
+  overflow: hidden;  
+  width: 12em;  
+}  
+  
+.resize2 img {  
+  margin: -220px 0 0 -210px;  
+  padding: 6em 0 0 6em;  
+}  
+
+.imagenenc {
+	visibility: visible;
+	width: 50px;
+	height: 50px;
+}
+**/
